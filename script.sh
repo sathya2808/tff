@@ -6,8 +6,8 @@ for i in $a;do
  then
    git commit -m "$i"
    git branch -M main
-   git remote add origin https://github.com/sathya2808/commitdemo.git
-   git push origin main
+   git remote add origins https://github.com/sathya2808/commitdemo.git
+   git push origins main
  fi
  c=$c+1
 done
